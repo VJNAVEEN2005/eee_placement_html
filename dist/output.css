@@ -635,7 +635,7 @@ video {
   animation-duration: 0.9s;
 }
 
-.header-eee .photo-eee .hod-eee{
+.hod-eee{
   animation: popup;
   animation-duration: 0.9s;
   position: absolute;
@@ -646,7 +646,7 @@ video {
   border-radius: 10px;
 }
 
-.header-eee .photo-eee .hod-eee .text{
+.hod-eee .text{
   margin-left: 20px;
   height: inherit;
   display: flex;
@@ -655,12 +655,12 @@ video {
   align-items: center;
 }
 
-.header-eee .photo-eee .hod-eee a{
+.hod-eee a{
   padding: 5px 20px;
   border-radius: 20px;
 }
 
-.header-eee .photo-eee .hod-eee .hod{
+.hod-eee .hod{
   width: 140px;
 }
 
