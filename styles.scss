@@ -9,6 +9,17 @@
 
 /*Header*/
 
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lemon&family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Port+Lligat+Slab&family=Rubik:ital,wght@0,300..900;1,300..900&family=Unbounded:wght@200..900&display=swap');
+
+
+/*Header*/
+
 *{
     font-family: "Rubik", sans-serif;
 }
@@ -27,12 +38,16 @@
     width: 100%;
 }
 
+
+
 .header-eee .name-eee .logo{
     position: absolute;
     width: 96px;
     top: 30px;
     left: 50px;
 }
+
+
 
 .header-eee .photo-eee {
     z-index: -1;
@@ -75,7 +90,7 @@
     animation-duration: 0.9s;
 }
 
-.header-eee .photo-eee .hod-eee{
+.hod-eee{
     animation: popup;
     animation-duration: 0.9s;
     position: absolute;
@@ -86,7 +101,7 @@
     border-radius: 10px;
 }
 
-.header-eee .photo-eee .hod-eee .text{
+.hod-eee .text{
     margin-left: 20px;
     height: inherit;
     display: flex;
@@ -96,12 +111,12 @@
     
 }
 
-.header-eee .photo-eee .hod-eee a{
+.hod-eee a{
     padding: 5px 20px;
     border-radius: 20px;
 }
 
-.header-eee .photo-eee .hod-eee .hod{
+.hod-eee .hod{
     width: 140px;
 }
 
@@ -279,7 +294,7 @@ footer .footer-gray .text .footer-icons svg{
         top: -100px;
     }
 
-    .header-eee .photo-eee .hod-eee{
+.hod-eee{
         scale: 0.8;
     }
 
